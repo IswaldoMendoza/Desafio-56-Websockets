@@ -1,0 +1,30 @@
+<style>
+    .table td,
+    .table th {
+        vertical-align: middle;
+    }
+</style>
+
+{{#if productos.length}}
+<h2>Listado de Productos</h2>
+<div class="table-responsive">
+    <table class="table table-dark">
+        <tr>
+            <th>Detalle de producto</th>
+            <th>Precio</th>
+            <th>Imagen de referencia</th>
+        </tr>
+    {{#each productos}}
+        <tr>
+            <td>{{this.title}}</td>
+            <td>{{this.price}}</td>
+            <td><img src="{{this.thumbnail}}" alt="" style="width: 30px; height:20px"></td>
+        </tr>
+    {{/each}}
+        
+        {{!-- Aqui busca los productos y los muestra --}}
+    </table>
+</div>
+{{/if}}{{#else}} 
+            <h3 class="alert alert-warning">No hubo coincidencias</h3>
+        {{/else}}

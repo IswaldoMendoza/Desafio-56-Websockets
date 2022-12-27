@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Resident Evil 1",
+    "price": 300,
+    "thumbnail": "https://static.wikia.nocookie.net/residentevil/images/7/74/Resident_Evil_PS1_USA.jpg/revision/latest?cb=20210823163310&path-prefix=es",
+    "id": 1
+  },
+  {
+    "title": "Resident Evil 2",
+    "price": 300,
+    "thumbnail": "https://static.wikia.nocookie.net/residentevil/images/f/f9/Resident_Evil_2_Caratula_USA.png/revision/latest?cb=20191002001320&path-prefix=es",
+    "id": 2
+  },
+  {
+    "title": "Resident Evil 3",
+    "price": 300,
+    "thumbnail": "https://static.wikia.nocookie.net/residentevil/images/0/00/RE3_PS1_USA.jpg/revision/latest?cb=20180816155908&path-prefix=es",
+    "id": 3
+  },
+  {
+    "title": "Resident Evil 4",
+    "price": 300,
+    "thumbnail": "https://static.wikia.nocookie.net/residentevil/images/0/00/RE3_PS1_USA.jpg/revision/latest?cb=20180816155908&path-prefix=es",
+    "id": 4
+  }
+]
